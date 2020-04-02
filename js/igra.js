@@ -116,6 +116,7 @@ function draw(){
 }
 
 function loop(){
+	ctx.drawImage(ozadje_slika, 0, 0);
 	draw();
 	update();
 	requestAnimationFrame(loop);
